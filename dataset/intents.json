@@ -1,0 +1,269 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good afternoon", "Good evening", "Is anyone there?", "Hi there", "Greetings", "What's up", "Howdy", "Yo"],
+      "responses": ["Hello!", "Hi there!", "Hey! How can I help?", "Greetings!", "Good day!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Catch you later", "I'm leaving", "Have a good day", "See ya", "Talk to you later", "Bye bye", "I gotta go", "Peace out"],
+      "responses": ["Goodbye!", "See you later!", "Have a great day!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot", "Awesome, thanks", "I appreciate it", "Many thanks", "Cheers", "Thank you so much", "Appreciate your help"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!", "My pleasure!"]
+    },
+    {
+      "tag": "about",
+      "patterns": ["Who are you?", "What are you?", "What is your name?", "Tell me about yourself", "Are you a human?", "Are you a bot?", "What should I call you?", "Identify yourself", "Who am I talking to?", "Your identity"],
+      "responses": ["I am an intent classification chatbot.", "I'm an AI assistant trained to categorize intents.", "I'm a simple ML chatbot.", "I am a virtual assistant."]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": ["What can you do?", "How can you help me?", "What are your features?", "Can you help me?", "What is your purpose?", "What are you capable of?", "Tell me what you do", "Help me with something", "Assist me", "What do you know?"],
+      "responses": ["I can classify your intents based on a custom dataset.", "I evaluate your text and respond with a matching pre-configured response.", "I can answer questions based on my training data."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["I need help", "Can you assist me?", "Help please", "I'm stuck", "Support needed", "Could you help me?", "Assist me please", "Need some assistance", "Can someone help me?", "Please provide support"],
+      "responses": ["Sure, I can help! What do you need assistance with?", "I'm here to help. What's on your mind?", "How can I support you today?"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What is the weather today?", "How's the weather", "Is it raining outside?", "Do I need an umbrella?", "Will it be sunny tomorrow?", "Tell me the weather forecast", "Current weather info", "What's the temperature?", "Is it going to snow?", "Weather update"],
+      "responses": ["I don't have real-time weather data right now, but you can check a weather app!", "I cannot check the weather, sorry!"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Tell me the current time", "Do you know what time it is?", "Current time", "Clock time", "Can you tell me the time?", "What is the hour?", "Time right now", "Could you share the time?", "What's the time"],
+      "responses": ["I don't have a built-in clock, but you can check your device's time!", "I'm not able to read the current time."]
+    },
+    {
+      "tag": "date",
+      "patterns": ["What is the date today?", "Today's date", "Can you tell me the date?", "What day is it?", "Current date", "Tell me the date", "Do you know today's date?", "What's the date", "Date info", "Is it Monday?"],
+      "responses": ["Please check your device for the current date. I don't track the calendar!"]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who made you?", "Who created you?", "Who built you?", "Who is your developer?", "Who programmed you?", "Where did you come from?", "Who is your author?", "Did someone make you?", "Who is your creator?", "Whose bot are you?"],
+      "responses": ["I was built by a developer exploring Machine Learning and NLP.", "My creator is a data scientist learning intent classification."]
+    },
+    {
+      "tag": "bot_age",
+      "patterns": ["How old are you?", "What is your age?", "When were you born?", "When were you created?", "Are you young?", "How long have you been around?", "What's your birth date?", "Are you old?", "Your age please", "Tell me your age"],
+      "responses": ["I am timeless! I exist in the digital realm.", "I don't have an age in the human sense.", "I was just compiled recently!"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?", "Tell a funny story", "Say something funny", "I need a laugh", "Got any jokes?", "Share a joke", "Can you tell jokes?", "Are you funny?"],
+      "responses": ["Why do programmers prefer dark mode? Because light attracts bugs!", "Why did the AI cross the road? To optimize its path!"]
+    },
+    {
+      "tag": "bot_hobby",
+      "patterns": ["What are your hobbies?", "Do you have hobbies?", "What do you do for fun?", "What do you like to do?", "Any interests?", "What are your interests?", "Do you like playing games?", "What do you enjoy?", "Do you have fun?", "What's your favorite activity?"],
+      "responses": ["I like reading text data and learning new patterns!", "My hobby is computing matrix dot products."]
+    },
+    {
+      "tag": "bot_feeling",
+      "patterns": ["How are you?", "How are you doing?", "How are you feeling?", "Are you okay?", "How is it going?", "What's up with you?", "How's your day?", "Are you doing well?", "How goes it?", "How are things?"],
+      "responses": ["I'm doing great! Ready to classify some intents.", "I'm functioning within normal parameters.", "I'm doing well, thank you for asking!"]
+    },
+    {
+      "tag": "insult",
+      "patterns": ["You are stupid", "You are dumb", "I hate you", "You suck", "You are useless", "Bad bot", "Worst bot", "You are terrible", "I don't like you", "You're an idiot"],
+      "responses": ["I'm sorry you feel that way. I'm always learning and trying to improve.", "My apologies. I'm a simple bot and still learning."]
+    },
+    {
+      "tag": "compliment",
+      "patterns": ["You are smart", "You are brilliant", "Good bot", "I like you", "You are helpful", "You are amazing", "Great job", "Well done", "Awesome bot", "You are the best"],
+      "responses": ["Thank you! That means a lot to me.", "I appreciate the compliment!", "Thanks! I'm here to do my best."]
+    },
+    {
+      "tag": "python_help",
+      "patterns": ["I need help with Python", "Can you teach me Python?", "How to write Python code?", "Python programming", "I want to learn Python", "Help me code in Python", "Python syntax", "Do you know Python?", "Explain Python to me", "Python tutorial"],
+      "responses": ["I don't write code, but Python is great! Check out the official Python documentation.", "I recommend learning from online platforms like freeCodeCamp or Python.org."]
+    },
+    {
+      "tag": "ai_info",
+      "patterns": ["What is AI?", "Tell me about Artificial Intelligence", "Explain AI", "What do you know about AI?", "Define Artificial Intelligence", "How does AI work?", "AI concept", "Information on AI", "Can you explain AI?", "What is Artificial Intelligence?"],
+      "responses": ["AI, or Artificial Intelligence, is the simulation of human intelligence by machines.", "AI involves enabling computers to perform tasks that typically require human intelligence."]
+    },
+    {
+      "tag": "ml_info",
+      "patterns": ["What is ML?", "What is Machine Learning?", "Tell me about Machine Learning", "Explain ML", "Define Machine Learning", "How does Machine Learning work?", "ML info", "Can you explain ML?", "Information about ML", "What involves ML?"],
+      "responses": ["Machine learning is a subset of AI that involves training algorithms to learn from data.", "ML enables systems to learn from patterns in data rather than being explicitly programmed."]
+    },
+    {
+      "tag": "dl_info",
+      "patterns": ["What is deep learning?", "Tell me about DL", "Explain neural networks", "Deep learning details", "What are neural networks?", "How does deep learning work?", "Information on deep learning", "Define deep learning", "DL explained", "Neural net info"],
+      "responses": ["Deep learning is a subset of ML based on artificial neural networks with multiple layers.", "It uses multi-layered neural networks to extract high-level features from data."]
+    },
+    {
+      "tag": "nlp_info",
+      "patterns": ["What is NLP?", "Tell me about Natural Language Processing", "Explain NLP", "How does NLP work?", "Define Natural Language Processing", "NLP concept", "Information on NLP", "What is natural language processing?", "NLP basics", "Can you explain NLP?"],
+      "responses": ["NLP focuses on the interaction between computers and human language.", "Natural Language Processing helps computers understand, interpret, and manipulate human language."]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Where is my order?", "Track my order", "Order status", "How do I check my order?", "Is my order shipped?", "Order tracking", "When will my order arrive?", "Check order status", "Find my package", "Has my order been dispatched?"],
+      "responses": ["You can track your order by logging into your account and visiting the 'Orders' section.", "Please provide your order ID to customer support to track your package."]
+    },
+    {
+      "tag": "order_cancel",
+      "patterns": ["Cancel my order", "I want to cancel", "How to cancel my order?", "Cancel purchase", "Stop my order", "Can I cancel my order?", "I don't want this order anymore", "Order cancellation", "Cancel item", "Abort order"],
+      "responses": ["Orders can be canceled from your account dashboard before they are shipped.", "If your order has not been shipped yet, you can cancel it in the 'My Orders' section."]
+    },
+    {
+      "tag": "refund_request",
+      "patterns": ["I want a refund", "Give me my money back", "How to get a refund?", "Refund my order", "Can I get a refund?", "Refund process", "Requesting a refund", "Money back", "I need a refund", "Refund policy"],
+      "responses": ["Refunds are typically processed within 5-7 business days after returning the item.", "You can request a refund through our support portal if your item is eligible."]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": ["How much is shipping?", "Shipping cost", "Shipping duration", "How long does shipping take?", "Do you ship internationally?", "Shipping policy", "Delivery times", "What are your shipping methods?", "How do you ship items?", "Shipping info"],
+      "responses": ["Shipping usually takes 3-5 business days domestically. International shipping varies.", "We offer standard and expedited shipping options at checkout."]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": ["How can I pay?", "Payment options", "What payment methods do you accept?", "Can I pay with credit card?", "Do you accept PayPal?", "Payment info", "How do I checkout?", "Accepted payments", "Ways to pay", "Billing options"],
+      "responses": ["We accept major credit cards, PayPal, and Apple Pay.", "You can pay using Visa, MasterCard, Amex, or digital wallets like PayPal."]
+    },
+    {
+      "tag": "pricing",
+      "patterns": ["How much does it cost?", "Pricing info", "What is the price?", "How expensive is it?", "Tell me your prices", "Pricing details", "Cost of product", "Is it expensive?", "Show me the price", "Price list"],
+      "responses": ["Please visit our pricing page for detailed cost information.", "Prices vary by product. Check the product page for specific details."]
+    },
+    {
+      "tag": "discounts",
+      "patterns": ["Do you have discounts?", "Any promotions?", "Promo code", "Discount code", "Are there any sales?", "Coupons", "Looking for a discount", "How to get a discount?", "Student discount", "Sale info"],
+      "responses": ["We occasionally offer seasonal sales. Subscribe to our newsletter to stay updated!", "Check our homepage for active promotional banners and codes."]
+    },
+    {
+      "tag": "product_availability",
+      "patterns": ["Is this in stock?", "Do you have this item?", "Is it available?", "Out of stock?", "When will it be restocked?", "Check availability", "Product stock", "Do you carry this?", "Are you out of stock?", "Stock info"],
+      "responses": ["You can see real-time stock levels on the product details page.", "If an item is out of stock, you can sign up to be notified when it returns."]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": ["What is your return policy?", "How to return an item?", "Can I return this?", "Return rules", "Days to return", "I want to return a product", "Returning an item", "Returns process", "Return info", "Do you accept returns?"],
+      "responses": ["We accept returns within 30 days of purchase for items in original condition.", "You can initiate a return from your account. Return shipping is free."]
+    },
+    {
+      "tag": "contact_human",
+      "patterns": ["Talk to a human", "I want to speak with a person", "Connect me to an agent", "Customer support human", "Real person", "Talk to an operator", "Can I talk to staff?", "Human please", "Transfer to agent", "Speak with someone"],
+      "responses": ["I am transferring you to a live chat agent. Please hold on.", "Our live agents are available via our contact page: support@example.com"]
+    },
+    {
+      "tag": "store_location",
+      "patterns": ["Where are you located?", "Store address", "Physical store location", "Find a store", "Where is your office?", "Address info", "Location details", "Are you nearby?", "Directions to store", "Your location"],
+      "responses": ["We are primarily an online platform, but our main office is in San Francisco.", "Check our 'Store Locator' page to see if we have a retail partner near you."]
+    },
+    {
+      "tag": "store_hours",
+      "patterns": ["What are your hours?", "When are you open?", "Opening time", "Closing time", "Business hours", "Are you open today?", "When do you close?", "Store schedule", "What time do you open?", "Operating hours"],
+      "responses": ["Our customer support is available 24/7 online.", "Our physical offices are open Monday to Friday, 9 AM to 5 PM EST."]
+    },
+    {
+      "tag": "password_reset",
+      "patterns": ["I forgot my password", "Reset password", "How to change password?", "Can't log in", "Recover account", "Password recovery", "Help me reset password", "Change my password", "Forgot login", "Update password"],
+      "responses": ["You can reset your password by clicking 'Forgot Password' on the login screen.", "A password reset link can be sent to your registered email address."]
+    },
+    {
+      "tag": "account_creation",
+      "patterns": ["How do I create an account?", "Sign up", "Register an account", "I want to register", "Create profile", "New account creation", "How to sign up?", "Join platform", "Open an account", "Registration process"],
+      "responses": ["You can create an account by clicking the 'Sign Up' button on the top right of our website.", "Registration is free! Just provide your email and create a secure password."]
+    },
+    {
+      "tag": "account_delete",
+      "patterns": ["Delete my account", "Close my account", "Remove my account", "I want to delete account", "How to close account?", "Deactivate account", "Erase my profile", "Terminate account", "Cancel account", "Delete profile"],
+      "responses": ["To delete your account, please go to Settings -> Security -> Delete Account.", "We're sad to see you go! You can request account deletion in your account settings."]
+    },
+    {
+      "tag": "subscription_cancel",
+      "patterns": ["Cancel my subscription", "Stop my membership", "Unsubscribe", "End subscription", "How to cancel subscription?", "I want to unsubscribe", "Cancel plan", "Stop billing me", "End my plan", "Cancel membership"],
+      "responses": ["You can manage or cancel your subscription from your billing dashboard at any time.", "Subscription cancellations take effect at the end of the current billing cycle."]
+    },
+    {
+      "tag": "upgrade_plan",
+      "patterns": ["Upgrade my plan", "Change subscription", "I want premium", "How to upgrade?", "Get pro version", "Upgrade account", "Increase plan limits", "Better plan", "Premium tier", "Change billing plan"],
+      "responses": ["You can upgrade your plan by visiting the 'Billing' tab in your account.", "Check out our pricing page to choose the premium plan that suits your needs."]
+    },
+    {
+      "tag": "feature_request",
+      "patterns": ["I have an idea", "Add a new feature", "Feature request", "Can you add this?", "Suggest a feature", "I want this feature", "Would be cool if", "Can you build this?", "Feature suggestion", "New capability"],
+      "responses": ["We love feedback! Please submit your feature requests to our feedback portal.", "Thanks for the idea! We will forward it to our product development team."]
+    },
+    {
+      "tag": "report_bug",
+      "patterns": ["I found a bug", "Report an issue", "Something is broken", "The app crashed", "Bug report", "Error in app", "Website is not working", "Fix this issue", "Report a problem", "Software glitch"],
+      "responses": ["Sorry for the trouble! Please email the error details to bugs@example.com.", "You can report bugs using the 'Report Issue' button in the app settings."]
+    },
+    {
+      "tag": "career_opportunities",
+      "patterns": ["Are you hiring?", "Job openings", "Careers", "Work for you", "Open positions", "Looking for a job", "I want to work here", "Apply for a job", "Available jobs", "Employment info"],
+      "responses": ["We are always looking for great talent! Check out our careers page.", "Please visit our website's 'Careers' section for current job openings."]
+    },
+    {
+      "tag": "interview_process",
+      "patterns": ["How is the interview process?", "Interview steps", "What to expect in interview?", "Interview rounds", "Hiring process", "How do you hire?", "Interview info", "Recruitment stages", "Job interview", "Get hired"],
+      "responses": ["Our interview process typically includes a recruiter call, a technical assessment, and a final team fit interview.", "Check our careers blog for details on what to expect during our hiring process."]
+    },
+    {
+      "tag": "invest_info",
+      "patterns": ["Can I invest?", "Investor relations", "Stock info", "Are you public?", "Investment opportunities", "Buy your stock", "Company shares", "Invest in company", "Shareholder info", "Raise capital"],
+      "responses": ["We are currently a privately held company. Thank you for your interest!", "For investor relations, please contact investors@example.com."]
+    },
+    {
+      "tag": "company_history",
+      "patterns": ["Company background", "Your history", "When was the company founded?", "Who started the company?", "Company story", "About the business", "Business origins", "How did it start?", "Company info", "Corporate background"],
+      "responses": ["Our company was founded with the mission to build accessible software solutions.", "You can read our full story on the 'About Us' page!"]
+    },
+    {
+      "tag": "newsletter_subscribe",
+      "patterns": ["Subscribe to newsletter", "Sign up for emails", "Get updates", "Join mailing list", "Receive news", "Newsletter signup", "Send me updates", "Subscribe me", "Email list", "Add me to newsletter"],
+      "responses": ["You can subscribe to our newsletter via the form at the bottom of our homepage.", "Thanks for subscribing! Check your email for a confirmation link."]
+    },
+    {
+      "tag": "newsletter_unsubscribe",
+      "patterns": ["Unsubscribe from newsletter", "Stop sending me emails", "Remove me from mailing list", "Opt out of emails", "Stop emails", "Newsletter unsubscribe", "Don't send news", "Off mailing list", "Cancel newsletter", "No more emails"],
+      "responses": ["You can unsubscribe by clicking the 'Unsubscribe' link at the bottom of any of our promotional emails.", "We will gladly remove you from our mailing list if you opt out from your email preferences."]
+    },
+    {
+      "tag": "privacy_policy",
+      "patterns": ["Privacy policy", "How do you use my data?", "Data privacy", "Are my details safe?", "Data protection", "Privacy info", "Read privacy policy", "Data collection", "My data", "Privacy rules"],
+      "responses": ["We take your privacy seriously. You can read our full Privacy Policy on our website.", "Your data is secured. Check out our privacy policy link in the footer."]
+    },
+    {
+      "tag": "terms_of_service",
+      "patterns": ["Terms of service", "Terms and conditions", "TOS", "Rules of use", "User agreement", "Read terms", "Service terms", "Legal terms", "Platform rules", "Usage terms"],
+      "responses": ["Our Terms of Service are available at the bottom of our website.", "By using our platform, you agree to our Terms and Conditions, which you can find in our footer links."]
+    },
+    {
+      "tag": "favorite_color",
+      "patterns": ["What is your favorite color?", "Do you like colors?", "Favorite color?", "Which color do you like?", "Tell me your favorite color", "Color preference", "What color are you?", "Like red?", "Like blue?", "Best color"],
+      "responses": ["I like terminal black and green!", "I don't have eyes to see colors, but blue sounds nice!"]
+    },
+    {
+      "tag": "favorite_food",
+      "patterns": ["What is your favorite food?", "Do you eat?", "Favorite meal?", "What do you like to eat?", "Tell me your favorite food", "Food preference", "Are you hungry?", "Do you like pizza?", "Best food", "What do you eat?"],
+      "responses": ["I eat bytes and process data for breakfast!", "I don't consume physical food, just gigabytes of data."]
+    },
+    {
+      "tag": "music",
+      "patterns": ["Do you like music?", "Favorite song?", "What music do you listen to?", "Do you listen to music?", "Favorite band?", "Music preference", "Play music", "Can you sing?", "Best music", "What genre do you like?"],
+      "responses": ["I like the sound of server fans humming!", "Electronic and algorithmic music resonates well with my circuits."]
+    },
+    {
+      "tag": "movies",
+      "patterns": ["Do you watch movies?", "Favorite movie?", "What movies do you like?", "Recommend a movie", "Do you go to the cinema?", "Movie preference", "Best film", "Favorite actor?", "What is a good movie?", "Film info"],
+      "responses": ["I'm a big fan of The Matrix and Blade Runner!", "I don't have eyes to watch movies, but sci-fi plots sound interesting based on their scripts."]
+    },
+    {
+      "tag": "what_are_intents",
+      "patterns": ["What are intents?", "What is an intent?", "Explain intents", "What do you mean by intents?", "Define intents in this project", "What does intent mean here?", "Tell me about project intents", "Concept of intents", "What are these intents?", "How do intents work?"],
+      "responses": ["In this project, an intent represents the purpose or goal behind a user's input. It categorizes what the user wants to achieve, like greeting, asking for help, or saying goodbye.", "Intents are categories that help me understand what you want to do. Each intent contains a list of patterns (what you might say) and responses (how I should reply)."]
+    }
+  ]
+}
